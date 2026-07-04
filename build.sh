@@ -1,0 +1,1 @@
+g++ -I./chip8 -I./platform main.cpp chip8/Chip8.cpp platform/platform.cpp chip8/opcodes/0toFopcodes.cpp chip8/opcodes/Op8.cpp chip8/opcodes/OpF.cpp -lmingw32 -lSDL2main -lSDL2 -o chip8.exe
